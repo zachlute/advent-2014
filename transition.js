@@ -1,3 +1,4 @@
+/* Disabled, since it seems to not work on mobile until I can disable it just there.
 $(document).ready(function() {
 	
 	$("body").css("display", "none");
@@ -15,3 +16,4 @@ $(document).ready(function() {
 	}
 	
 });
+*/
