@@ -10,34 +10,36 @@ html {
   height: 100%;
 }
 
-
-/*
-* {
-	margin:0;
-	padding:0;
-}
-*/
-
 body {
 	font:1em/1.4 Verdana, Arial, Helvetica, sans-serif;
-	margin:0px 200px; padding:0px;
 	height: 100%;
 }
 
-#background {
-	background-color: black;
-	height: 100%;
-	opacity: 1.0;
-	z-index: 0
+#header {
+	background: rgb(0, 0, 0); /* Fallback */
+    background: rgba(0, 0, 0, 0.8);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#footer {
+	background: rgb(0, 0, 0); /* Fallback */
+    background: rgba(0, 0, 0, 0.8);
 }
 
 #content {
 	min-height: 100%;
+	margin:0px 200px; padding:0px;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 50px;
 	background: rgb(0, 0, 0); /* Fallback */
     background: rgba(0, 0, 0, 0.8);
+}
+
+#days {
+	float: left;
 }
 
 .bible {
@@ -77,19 +79,6 @@ li#headers li {
 	border-style: solid;
 	border-color: transparent;
     border-width: 2px;
-}
-
-p.link {
-	text-align:center;
-	display: block;
-}
-
-h1 {
-	display: block;
-	width: 200px;
-	height: 76px;
-	text-indent:-9999px; 
-	margin: 15px auto;
 }
 
 /* days */
@@ -138,9 +127,4 @@ li li ol li {
 	margin:0;
 	padding:.2em 0;
 	float:none;
-}
-
-.reflection p::first-letter { 
-    font-size: 200%;
-    color: gold;
 }
