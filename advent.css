@@ -93,7 +93,12 @@ li#day {
 
 li#headers {
 	height:auto;
+	list-style:none;
 	text-align: center;
+}
+
+li#dates {
+	list-style:none;
 }
 
 li#headers li {
