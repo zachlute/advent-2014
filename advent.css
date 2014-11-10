@@ -139,7 +139,12 @@ li a li.day {
 }
 
 li.day a {
+	color: white;
 	text-decoration: none;
+}
+
+li.day p {
+	border-color: white;
 }
 
 li li.day a:visited p {
