@@ -115,17 +115,21 @@ li#headers li {
 
 /* days */
 li li.day {
-	width:6em;
-	height:6em;
 	float:left;
-	margin:.2em;
-	padding:.2em;
 	overflow:auto;
-	border-style: solid;
-    border-width: 2px;
 }
 
-li li.day:hover {
+li li.day p {
+	width:6em;
+	height:6em;
+	border-style: solid;
+    border-width: 2px;
+    margin:.2em;
+	padding:.2em;
+    overflow:auto;
+}
+
+li li.day p:hover {
 	border-color: goldenrod;
 	background: url(images/dec04.jpg) no-repeat center center fixed; 
 }
@@ -134,17 +138,16 @@ li a li.day {
 	color: white;
 }
 
-li a:visited li.day {
+li.day a {
+	text-decoration: none;
+}
+
+li li.day a:visited p {
 	border-color: dimgray;
 	color: white;
 }
 
 /* day content */
-li li.day p	 {
-	font-size:.7em;
-	display:block;
-}
-
 li li.day ol {
 	width:auto;
 }
