@@ -64,7 +64,7 @@ body {
 	text-align: right
 }
 
-#title {
+h1#title {
 	color: gray;
 	font-size: 20px;
 	font-weight: bold;
