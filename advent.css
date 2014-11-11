@@ -79,7 +79,9 @@ h5.author {
 .bible {
 	color: GoldenRod;
 }
-
+a {
+	color: #50ddd7;
+}
 img {
 	display: block;
 	margin-left: auto;
