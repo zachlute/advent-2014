@@ -70,6 +70,12 @@ body {
 	font-weight: bold;
 }
 
+h5.author {
+	color: gray;
+	font-weight: bold;
+	font-style: italic;
+}
+
 .bible {
 	color: GoldenRod;
 }
