@@ -31,10 +31,11 @@ body {
 #content {
 	min-height: 100%;
 	min-width: 570px;
-	margin:0px 200px; padding:0px;
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
+	width: 80%;
+	margin: auto;
 	background: rgb(0, 0, 0); /* Fallback */
     background: rgba(0, 0, 0, 0.8);
 }
