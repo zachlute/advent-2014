@@ -70,8 +70,9 @@ h1#title {
 	font-weight: bold;
 }
 
-h5.author {
+.author {
 	color: gray;
+	font-size: 14px;
 	font-weight: bold;
 	font-style: italic;
 }
