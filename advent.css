@@ -7,12 +7,12 @@ html {
   background-size: cover;
   color: white;
   background-color: black;
-  height: 100%;
 }
 
 body {
 	font:1em/1.4 Verdana, Arial, Helvetica, sans-serif;
 	height: 100%;
+	margin: 0px;
 }
 
 #header {
